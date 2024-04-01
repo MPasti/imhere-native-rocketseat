@@ -9,7 +9,9 @@
     "web": "expo start --web",
     "prebuild": "expo prebuild",
     "ios-prebuild": "expo prebuild -p ios",
-    "local-build": "eas build --platform android --local"
+    "local-build": "eas build --platform android --local",
+    "build":"eas build",
+    "config":"eas build:configure"
   },
   "dependencies": {
     "expo": "~50.0.14",
